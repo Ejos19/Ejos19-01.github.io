@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabla de Multiplicar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="logo">
+      <img src="asset/icono oso2.png" alt="logo" width="200px" height="200px" />
+    </div>
+    <h1>Tabla de Multiplicar</h1>
+    <div id="tabla1">
+      <label for="multiplicador">Multiplicador:</label>
+      <input type="number" id="multiplicador" value="6" />
+      <button class="animated-button" onclick="generarTabla()">
+        <svg
+          viewBox="0 0 24 24"
+          class="arr-2"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+          ></path>
+        </svg>
+        <span class="text">Generar tabla</span>
+        <span class="circle"></span>
+        <svg
+          viewBox="0 0 24 24"
+          class="arr-1"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+          ></path>
+        </svg>
+      </button>
+    </div>
+    <div id="tabla2">
+      <table id="tablaMultiplicar">
+        <thead>
+          <tr>
+            <th>Multiplicador</th>
+            <th>Resultado</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+<b></b>
